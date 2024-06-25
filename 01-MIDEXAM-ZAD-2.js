@@ -1,4 +1,4 @@
-function zad2(array) {
+function solve(array) {
     let passengers = Number(array.shift())
     let wagons = array.shift().split(' ').map(Number)
     
@@ -21,7 +21,7 @@ function zad2(array) {
     console.log(`There isn't enough space! ${passengers} people in a queue!`);
     console.log(`${wagons.join(' ')}`);
 }
-zad2
+solve
 ([
     "15",
     "0 0 0 0 0"
